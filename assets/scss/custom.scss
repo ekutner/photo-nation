@@ -1,0 +1,18 @@
+
+// override button ending in portfolio tag filter toolbar to work correctly in RTL
+.btn-toolbar .btn:last-child {
+  border-radius: 6px 0 0 6px !important;  	
+}
+.btn-toolbar .btn:first-child {
+ 	border-radius: 0 6px 6px 0 !important;
+}
+
+.article-container table {
+  margin: 0 auto;
+  background-colorx: blue;
+  display: table;
+}
+
+.article-container table thead {
+  background-color: #dadada;
+}

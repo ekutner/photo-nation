@@ -1,0 +1,32 @@
+{
+    "data": [
+        {
+            "type": "bar",
+            "name": "שערי חליפין",
+            "mode": "none",
+            "x": ["ינואר", "פברואר", "מרץ", "אפריל", "מאי", "יוני", "יולי", "אוגוסט", "ספטמבר", "אוקטובר", "נובמבר", "דצמבר"],
+            "y": [11,14,16,21,25,27,29,29,28,26,19,14]
+        }
+    ],
+    "layout": {
+        "plotBackground": "#c0c0c0",
+        "height": 300,
+        "xaxis": {
+            "type": "category",
+            "title": "טמפ' ממוצעת בירושלים",
+            "showgrid": false,
+            "autorange": true,
+            "tickformat": "%Y/%m"
+          },
+          "yaxis": {
+            "type": "linear",
+            "range": [
+              0,
+              4
+            ],
+            "title": "",
+            "autorange": true
+          }
+    }
+}
+

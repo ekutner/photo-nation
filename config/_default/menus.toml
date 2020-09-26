@@ -1,0 +1,68 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+
+[[main]]
+  name = "Demo"
+  url = "#hero"
+  weight = 10
+
+[[main]]
+  name = "Posts"
+  url = "#posts"
+  weight = 20
+
+[[main]]
+  name = "Projects"
+  url = "#projects"
+  weight = 30
+
+[[main]]
+  name = "Publications"
+  url = "#featured"
+  weight = 40
+
+[[main]]
+  name = "Courses"
+  url = "courses/"
+  weight = 50
+
+[[main]]
+  name = "Docs"
+  url = "docs/"
+  weight = 55
+
+[[main]]
+  name = "Contact"
+  url = "#contact"
+  weight = 60
+
+[[main_right]]
+  name = " "
+  pre = '<span class="fa-stack fa-2x mr-1" style="font-size: 0.9em;"><i class="fas fa-circle fa-stack-2x" ></i><i class="fab fa-instagram fa-stack-1x fa-fw text-light" ></i>'
+  post= "</span>"
+  url = "https://instagram.com/erankutner"
+  weight = 10
+
+[[main_right]]
+  name = ""
+  pre = '<span class="fa-stack fa-2x mr-1" style="font-size: 0.9em;"><i class="fas fa-circle fa-stack-2x" ></i><i class="fab fa-twitter fa-stack-1x fa-fw text-light" ></i>'
+  post= "</span>"
+  url = "https://twitter.com/ekutner"
+  weight = 20
+
+[[main_right]]
+  name = "  "
+  pre = '<span class="fa-stack fa-2x mr-1" style="font-size: 0.9em;"><i class="fas fa-circle fa-stack-2x" ></i><i class="fab fa-facebook fa-stack-1x fa-fw text-light" ></i>'
+  post= "</span>"
+  url = "https://facebook.com/ekutner"
+  weight = 30
+
+# Link to a PDF of your resume/CV from the menu.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+# [[main]]
+#    name = "CV"
+#    url = "files/cv.pdf"
+#    weight = 70
