@@ -4,7 +4,7 @@
 widget: featured
 
 # Activate this widget? true/false
-active: true
+active: false
 
 # This file represents a page section.
 headless: true
@@ -17,7 +17,7 @@ subtitle: ""
 
 content:
   # Page type to display. E.g. post, talk, publication...
-  page_type: publication
+  page_type: "post"
   # Choose how much pages you would like to display (0 = all pages)
   count: 0
   # Filter on criteria

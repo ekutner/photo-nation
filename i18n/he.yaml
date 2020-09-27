@@ -15,7 +15,7 @@
 # General
 
 - id: related
-  translation: Related
+  translation: נושאים קשורים
 
 - id: minute_read
   translation: דקות קריאה
@@ -125,7 +125,7 @@
   translation: אימייל
 
 - id: contact_message
-  translation: שליחת הודעה
+  translation: הודעה
 
 - id: contact_send
   translation: שלח
@@ -145,7 +145,7 @@
   translation: Type
 
 - id: date
-  translation: Date
+  translation: תאריך
 
 - id: last_updated
   translation: עודכן לאחרונה ב-

@@ -12,7 +12,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 130
 
-title: Contact
+title: "יצירת קשר"
 subtitle:
 
 # Automatically link email and phone or display as text?

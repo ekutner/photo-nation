@@ -1,39 +1,44 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: ערן קוטנר
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
+
+# Username (this should match the folder name)
+authors:
+  - eran
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+#role: Unemployed
 
 # Organizations/Affiliations to show in About widget
-organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
+# organizations:
+# - name: Stanford University
+#   url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+#bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Interests to show in About widget
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- יזמות
+- תוכנה
+- צילום
+- אינטיליגנציה מלאכותית
 
 # Education to show in About widget
-education:
-  courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+# education:
+#   courses:
+#   - course: PhD in Artificial Intelligence
+#     institution: Stanford University
+#     year: 2012
+#   - course: MEng in Artificial Intelligence
+#     institution: Massachusetts Institute of Technology
+#     year: 2009
+#   - course: BSc in Artificial Intelligence
+#     institution: Massachusetts Institute of Technology
+#     year: 2008
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -43,18 +48,18 @@ social:
 - icon: envelope
   icon_pack: fas
   link: '/#contact'
+- icon: camera
+  icon_pack: fas
+  link: https://photos.kutner.org/
+- icon: instagram
+  icon_pack: fab
+  link: https://instagram.com/erankutner
+- icon: facebook
+  icon_pack: fab
+  link: https://facebook.com/ekutner
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: graduation-cap  # OR `google-scholar`
-  icon_pack: fas  # OR `ai`
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-- icon: github
-  icon_pack: fab
-  link: https://github.com/gcushen
-- icon: linkedin
-  icon_pack: fab
-  link: https://www.linkedin.com/
+  link: https://twitter.com/ekutner
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`, 
@@ -64,16 +69,14 @@ social:
 #   link: media/resume.pdf
 
 # Email for Contact widget or Gravatar
-email: ""
+email: "eran@kutner.org"
 
 # Organizational groups that you belong to (for People widget)
 #   Remove this if you are not using the People widget.
-user_groups:
-- Principal Investigators
+# user_groups:
+# - Principal Investigators
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+אני צלם חובב כבר הרבה מאוד שנים, עם שורשים שהתחילו עם מצלמות פילם אי שם בתחילת שנות ה-90. אני גם מהנדס שאוהב לרדת לעומק הדברים ולהבין איך הם עובדים ולמה ולא לשנן כללים שרירותיים שאומרים לעשות כך או אחרת. במשך השנים למדתי לא מעט על תחום הצילום, בעיקר באופן עצמאי ממקורות שזמינים באינטרנט. מתוך מעקב, ופה ושם מענה, לשאלות בפורומים שונים של צילום הבנתי שיש מחסור בחומר על נושאים מתקדמים בצילום בעברית. החלטתי להרים את הכפפה ולחלוק את הידע שצברתי עם קהילת הצילום הישראלית ולהנגיש אותו בעברית, תוך התמקדות בנושאים מתקדמים, או לפחות הסברים מעמיקים על למה הדברים עובדים כמו שהם עובדים. 
+אשמח לקבל פידבק מכל סוג לגבי התוכן, העיצוב, בקשות לנושאים שמעניינים אותם וכו'.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
-
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.

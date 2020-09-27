@@ -274,7 +274,7 @@ collections:
     label: "Pages"
     files:
       - file: "content/privacy.md"
-        label: "Privacy Policy"
+        label: "מדיניות פרטיות"
         name: "privacy"
         fields:
           - {label: "Title", name: "title", widget: "string"}
@@ -288,7 +288,7 @@ collections:
             default: false
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "content/terms.md"
-        label: "Terms"
+        label: "תנאי שימוש"
         name: "terms"
         fields:
           - {label: "Title", name: "title", widget: "string"}
