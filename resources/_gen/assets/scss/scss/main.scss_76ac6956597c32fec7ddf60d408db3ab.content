@@ -9272,3 +9272,14 @@ html[dir="rtl"] body {
 ul.nav-icons li:last-of-type {
   padding-right: 30px;
   padding-left: 0; }
+
+.spoiler .btn, .spoiler .btn-primary:not(:disabled):not(.disabled):active:focus, .spoiler .btn-primary.active:not(:disabled):not(.disabled):focus {
+  border: 0px !important;
+  background-color: white !important;
+  color: black;
+  font-size: x-large;
+  box-shadow: 0 0 0 0.0rem;
+  text-align: right; }
+
+#TableOfContents ul {
+  padding-right: 0; }
