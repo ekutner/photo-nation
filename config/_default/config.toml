@@ -21,7 +21,7 @@ copyright = "כל הזכויות שמורות לערן קוטנר (2020)"
 ############################
 
 # Name of Academic theme folder in `themes/`.
-theme = "academic\\wowchemy"
+theme = "academic/wowchemy"
 
 # Get last modified date for content from Git?
 enableGitInfo = false
