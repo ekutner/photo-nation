@@ -14,14 +14,15 @@ profile: false
 math: true
 
 # taxonomies
-# categories: 
-#   - "מושגים"
-# tags:
-#   - "Photos"
-#   - "Game"
-#   - "React"
-#   - "Python"
-#   - "New"
+categories: 
+  - "העשרה"
+
+tags:
+  - "Photos"
+  - "Game"
+  - "React"
+  - "Python"
+  - "New"
 
 featured: true
 

@@ -10,7 +10,7 @@
 [he]
   languagedirection = "rtl"
   languageCode = "he"
-  title = "צילום מתקדם"
+  #title = "צילום מתקדם"
   weight = 1
 
 

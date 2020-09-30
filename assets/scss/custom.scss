@@ -15,6 +15,10 @@
 	font-size: x-large;
 }
 
+// .article-container {
+//   scroll-margin-top: 3em;
+// }
+
 .article-container table {
   margin: 0 auto;
   display: table;
@@ -22,6 +26,10 @@
 
 .article-container table thead {
   background-color: #dadada;
+}
+
+.article-metadata a {
+	margin-right: 0.4em;
 }
 
 .text-md-left {
