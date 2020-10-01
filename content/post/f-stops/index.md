@@ -17,12 +17,12 @@ math: true
 categories: 
   - "העשרה"
 
-tags:
-  - "Photos"
-  - "Game"
-  - "React"
-  - "Python"
-  - "New"
+# tags:
+#   - "Photos"
+#   - "Game"
+#   - "React"
+#   - "Python"
+#   - "New"
 
 featured: true
 

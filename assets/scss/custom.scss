@@ -19,15 +19,6 @@
 //   scroll-margin-top: 3em;
 // }
 
-.article-container table {
-  margin: 0 auto;
-  display: table;
-}
-
-.article-container table thead {
-  background-color: #dadada;
-}
-
 .article-metadata a {
 	margin-right: 0.4em;
 }
@@ -61,4 +52,57 @@ ul.nav-icons li:last-of-type {
 
 #TableOfContents ul {
   padding-right: 0;
+}
+
+// Hide the floating toolbar on charts
+.modebar-container {
+  display: none;
+}
+
+figure {
+  display: inline;
+  margin: 1em, 1em, 1em, 1em;
+}
+// override default table
+.article-container table {
+  margin: 0 auto;
+  display: table;
+}
+
+.article-container table thead {
+  background-color: #dadada;
+}
+
+// Override table when there is a special marker before it
+.article-container .table-headless + table thead {
+  display: none;
+}
+.article-container .table-borderless + table > tbody > tr > td {
+  border: 0;
+}
+
+.article-container .table-white + table thead {
+  background-color:white !important;
+}
+.article-container .table-white + table tbody {
+  background-color: white !important;
+}
+.article-container .table-white + table > tbody > tr:nth-child(odd) > td, .article-container .table-white + .article-container .table-white + table > tbody > tr:nth-child(odd) > th {
+	background-color: white;
+}
+.article-container .table-white + table > tbody > tr:hover > td, table > tbody > tr:hover > th {
+  background-color: white;
+}
+
+.article-container .table-grey + table thead {
+  background-color: lightgrey !important;
+}
+.article-container .table-grey + table tbody {
+  background-color: lightgrey !important;
+}
+.article-container .table-grey + table > tbody > tr:nth-child(odd) > td, .article-container .table-grey + table > tbody > tr:nth-child(odd) > th {
+	background-color: lightgrey;
+}
+.article-container .table-grey + table > tbody > tr:hover > td, .article-container .table-grey + table > tbody > tr:hover > th {
+  background-color: lightgrey;
 }

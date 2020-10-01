@@ -1,0 +1,47 @@
+{
+  "data": [
+      {
+          "type": "scatter",
+          "name": "רעש",
+          "mode": "lines",
+          "line": {
+            "shape": "spline"
+          },
+          "x": [0,0.5,1,1.5,2,2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.5,9,9.5,10],
+          "y": [0.1,-0.3,0.6,-0.3,0.9,-0.5,0.8,-0.5,0.2,-0.8,0.5,-0.5,0.5,-0.2,0.8,-0.7,0.1,-0.8,0.9,-0.7,0.3]
+      },
+      {
+        "type": "scatter",
+        "name": "אות",
+        "mode": "lines",
+        "line": {
+          "shape": "spline"
+        },
+        "x": [0,1,2,3,4,5,6,7,8,9,10],
+        "y": [0,0.5,-0.5,1,-1.5,2,-2.5,3,-4.5,5,0]
+    }      
+  ],
+  "layout": {
+    "hovermode": false,    
+    "plotBackground": "#c0c0c0",
+    "height": 300,
+    "title": "אות ביחס לרעש",
+    "xaxis": {
+        "visible": false,
+        "type": "none",
+        "title": "",
+        "showgrid": false,
+        "autorange": true
+      },
+      "yaxis": {
+        "visible": false,
+        "type": "linear",
+        "range": [
+          -5.1,
+          5
+        ],
+        "title": "",
+        "autorange": true
+      }
+  }
+}

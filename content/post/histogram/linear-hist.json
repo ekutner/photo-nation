@@ -1,0 +1,38 @@
+{
+    "data": [
+        {
+            "type": "bar",
+            "name": "EV",
+            "x": [0, 2, 4, 8, 16, 32, 64, 128, 255],
+            "y": [1,1,1,1,1,1,1,1,1,1,1,1],
+            "text": ["EV 0", "EV +1", "EV +2", "EV +3", "EV +4", "EV +5", "EV +6", "EV +7", "EV +8"],
+            "hoverinfo": "x+text"            
+        }
+    ],
+    "layout": {
+        "title": "פסגות תיאורטיות לכל תחנות הצמצם",
+        "plotBackground": "#c0c0c0",
+        "height": 300,
+        "xaxis": {
+            "type": "none",
+            "title": "Expected",
+            "showgrid": false,
+            "range": [
+                0,
+                256
+              ],
+            "autorange": false,
+            "tickvals": [0,8,16,32,64,128,255]
+          },
+          "yaxis": {
+            "visible": false,
+            "type": "linear",
+            "range": [
+              0,
+              1.2
+            ],
+            "title": "",
+            "autorange": false
+          }
+    }
+}
