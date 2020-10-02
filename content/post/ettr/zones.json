@@ -1,0 +1,80 @@
+{
+    "data": [
+        {
+            "type": "bar",
+            "name": "EV",
+            "x": [28, 57, 85, 113, 142, 170, 199, 227],
+            "y": [1,1,1,1,1,1,1,1],
+            "width": 2,
+            "hoverinfo": "none",
+            "marker": {
+                "color": "red"                
+            }
+        }
+    ],
+    "layout": {
+        "title": {
+            "text": "אזורי בהירות לפי אנסל אדמס",
+            "pad": {
+                "t": 0,
+                "b": 0
+            }
+        },
+        "plotBackground": "#c0c0c0",
+        "height": 200,
+        "xaxis": {
+            "type": "linear",
+            "title": "",
+            "showgrid": false,
+            "range": [
+                0,
+                256
+            ],
+            "autorange": false,
+            "tickvals": [14, 42, 71, 99, 127, 156, 184, 213, 241],
+            "ticktext":  ["I", "II", "III", "IV", "V", "VI", "VII", "VI", "IX"]
+        },
+        "yaxis": {
+            "visible": false,
+            "type": "linear",
+            "range": [
+                0,
+                1.2
+            ],
+            "title": "",
+            "autorange": false
+        },
+        "margin": {
+            "t": 20,
+            "l": 0,
+            "r": 0,
+            "b": 20
+        },        
+        "images": [
+            {
+                "source": "bw-gradient.png",
+                "sizex": 255,
+                "sizey": 1,
+                "layer": "below",
+                "xref": "x",
+                "yref": "y",
+                "y": 1,
+                "x": 0,
+                "sizing": "stretch"
+            }
+        ],
+        "shapes": [
+            {
+                "type": "square",
+                "x0": 0,
+                "y0": 0,
+                "x1": 256,
+                "y1": 1,
+                "line": {
+                    "color":"red",
+                    "width": 1
+                }
+            }
+        ]
+    }
+}

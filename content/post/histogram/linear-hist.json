@@ -15,24 +15,30 @@
         "height": 300,
         "xaxis": {
             "type": "none",
-            "title": "Expected",
+            "title": "",
             "showgrid": false,
             "range": [
                 0,
                 256
-              ],
-            "autorange": false,
-            "tickvals": [0,8,16,32,64,128,255]
-          },
-          "yaxis": {
-            "visible": false,
-            "type": "linear",
-            "range": [
-              0,
-              1.2
             ],
-            "title": "",
-            "autorange": false
-          }
+            "autorange": false,
+            "tickvals": [0,8,16,32,64,128,255],
+            "ticktext":  ["0 (EV 0)", "8 (EV +3)", "16 (EV +4)", "32 (EV +5)", "64 (EV +6)", "128 (EV +7)", "255 (EV +8)"]
+        },
+        "yaxis": {
+        "visible": false,
+        "type": "linear",
+        "range": [
+            0,
+            1.2
+        ],
+        "title": "",
+        "autorange": false
+        },
+        "margin": {
+            "t": 20,
+            "l": 0,
+            "r": 0
+        }
     }
 }
