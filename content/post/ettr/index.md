@@ -2,10 +2,9 @@
 weight: 100
 title: "חשיפה לימין - ETTR"
 #title_align: "left"
-summary: "מה זו טכניקת ETTR ולמה כדאי להשתמש בה"
+summary: "מה זו טכניקת ETTR, למה היא עובדת וכיצד להשתמש בה כדי להקטין רעש ולמקסם את ניצול הטווח הדינמי והמידע שנאסף מהחיישן"
 date: 2020-09-01
 draft: false
-lastmod: 2020-09-15
 
 # authors: 
 #   - "eran"
