@@ -15,6 +15,11 @@
 	font-size: x-large;
 }
 
+// Fix for RTL
+#navbar-main .main-menu-item {
+	text-align: right !important;
+}
+
 // .article-container {
 //   scroll-margin-top: 3em;
 // }
