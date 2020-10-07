@@ -1,0 +1,2 @@
+This reporistory is copyrighted to it's respective admins and contibutors.  
+You may clone this repository for the purpose of contributing new contented but you may not copy, modify, re-publish or make any commercial or non-commercial use of the content in this repository without prior written consent of the copyright holders.
