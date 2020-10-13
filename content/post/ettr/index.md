@@ -6,8 +6,8 @@ summary: "מה זו טכניקת ETTR, למה היא עובדת וכיצד לה�
 date: 2020-09-01
 draft: false
 
-# authors: 
-#   - "eran"
+authors: 
+   - admin
 
 profile: false
 

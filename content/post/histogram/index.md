@@ -6,8 +6,8 @@ summary: "דיון מעמיק בהיסטוגרמה, איך היא עובדת ב�
 date: 2020-09-01
 draft: false
 
-# authors: 
-#   - "eran"
+authors: 
+  - admin
 
 profile: false
 

@@ -16,10 +16,9 @@
   weight = 20
 
 [[main]]
-  name = "אודות"
-  url = "/author/ערן-קוטנר/"
+  name = "תרומת תוכן"
+  url = "/contributing/"
   weight = 30
-
 
 [[main_right]]
   name = ""
@@ -48,6 +47,7 @@
   post= "</span>"
   url = "https://photos.kutner.org/"
   weight = 40
+
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

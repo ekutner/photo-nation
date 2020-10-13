@@ -1,0 +1,80 @@
+{
+  "data": [
+      {
+          "type": "scatter",
+          "name": "עוצמה",
+          "mode": "lines",
+          "line": {
+            "shape": "spline",
+            "smoothing": 1
+          },
+          "xx": [0,  1,  2,  3,  4,   5,  6,  7   ],
+          "x0":0, "dx": 1,
+          "yy": [0, 0.1, 0.2, 72,100, 90, 80, 64, 50, 40, 32, 25.6, 20.48, 16.384, 13.1072, 10, 8,  6,  4,  2,  0],
+          "x": [0,0.9,1 ,1.2,2 ,4,   9,10],
+          "y": [0,0,1, 100, 50,10, 1,0]
+      },
+      {
+        "type": "bar",
+        "name": "EV",
+        "x": [2,4],
+        "y": [100,100],
+        "width": 0.05
+    }      
+  ],
+  "layout": {
+    "hovermode": false,    
+    "plotBackground": "#c0c0c0",
+    "height": 200,
+    "showlegend": false,
+    "margin": {
+      "t": 0,
+      "l": 60,
+      "r": 10,
+      "b": 40
+    },  
+    "xaxis": {
+      "visible": true,
+      "type": "linear",
+      "title": "ms-זמן ב",
+      "showgrid": false,
+      "autorange": true,
+      "range": [ -0.2, 20.2 ],
+      "tickmode": "linear"
+    },
+    "yaxis": {
+      "visible": true,
+      "type": "linear",
+      "showgrid": true,
+      "title": "עוצמה",
+      "autorange": true,
+      "tickmode": "linear",
+      "tick0": 0,
+      "dtick": 10,
+      "ticksuffix": "%"
+    },
+    "annotations": [
+      {
+        "text": "T.5 - 1/500",
+        "x": 2,
+        "y": 50,
+        "ax": 20,
+        "xanchor": "left"
+      },
+      {
+        "text": "T.1 - 1/250",
+        "x": 4,
+        "y": 10,
+        "ax": 20,
+        "xanchor": "left"
+      },
+      {
+        "text": "~1/850",
+        "x": 1.2,
+        "y": 100,
+        "ay": 10,
+        "xanchor": "right"
+      }      
+    ]
+  }
+}

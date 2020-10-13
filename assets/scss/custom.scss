@@ -20,9 +20,9 @@
 	text-align: right !important;
 }
 
-// .article-container {
-//   scroll-margin-top: 3em;
-// }
+.network-icon li:last-of-type {
+	margin-right: 10px;
+}
 
 .article-metadata a {
 	margin-right: 0.4em;
@@ -53,6 +53,9 @@ ul.nav-icons li:last-of-type {
   font-size: x-large;
   box-shadow: 0 0 0 0.0rem;
   text-align: right;
+}
+.spoiler_blue .btn, .spoilspoiler_blueer .btn-primary:not(:disabled):not(.disabled):active:focus, .spoiler_blue .btn-primary.active:not(:disabled):not(.disabled):focus {
+  color: blue;
 }
 
 #TableOfContents ul {
