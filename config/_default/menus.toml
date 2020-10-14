@@ -15,38 +15,38 @@
   url = "/dictionary"
   weight = 20
 
-[[main]]
-  name = "תרומת תוכן"
+[[main_right]]
+  name = "אני רוצה לעזור"
   url = "/contributing/"
-  weight = 30
+  weight = 5
 
-[[main_right]]
-  name = ""
-  pre = '<span class="fa-stack fa-2x mr-1" style="font-size: 0.9em;"><i class="fas fa-circle fa-stack-2x" ></i><i class="fab fa-instagram fa-stack-1x fa-fw text-light" ></i>'
-  post= "</span>"
-  url = "https://instagram.com/erankutner"
-  weight = 10
+# [[main_right]]
+#   name = ""
+#   pre = '<span class="fa-stack fa-2x mr-1" style="font-size: 0.9em;"><i class="fas fa-circle fa-stack-2x" ></i><i class="fab fa-instagram fa-stack-1x fa-fw text-light" ></i>'
+#   post= "</span>"
+#   url = "https://instagram.com/erankutner"
+#   weight = 10
 
-[[main_right]]
-  name = " "
-  pre = '<span class="fa-stack fa-2x mr-1" style="font-size: 0.9em;"><i class="fas fa-circle fa-stack-2x" ></i><i class="fab fa-twitter fa-stack-1x fa-fw text-light" ></i>'
-  post= "</span>"
-  url = "https://twitter.com/ekutner"
-  weight = 20
+# [[main_right]]
+#   name = " "
+#   pre = '<span class="fa-stack fa-2x mr-1" style="font-size: 0.9em;"><i class="fas fa-circle fa-stack-2x" ></i><i class="fab fa-twitter fa-stack-1x fa-fw text-light" ></i>'
+#   post= "</span>"
+#   url = "https://twitter.com/ekutner"
+#   weight = 20
 
-[[main_right]]
-  name = "   "
-  pre = '<span class="fa-stack fa-2x mr-1" style="font-size: 0.9em;"><i class="fas fa-circle fa-stack-2x" ></i><i class="fab fa-facebook fa-stack-1x fa-fw text-light" ></i>'
-  post= "</span>"
-  url = "https://facebook.com/ekutner"
-  weight = 30
+# [[main_right]]
+#   name = "   "
+#   pre = '<span class="fa-stack fa-2x mr-1" style="font-size: 0.9em;"><i class="fas fa-circle fa-stack-2x" ></i><i class="fab fa-facebook fa-stack-1x fa-fw text-light" ></i>'
+#   post= "</span>"
+#   url = "https://facebook.com/ekutner"
+#   weight = 30
 
-  [[main_right]]
-  name = "    "
-  pre = '<span class="fa-stack fa-2x mr-1" style="font-size: 0.9em;"><i class="fas fa-circle fa-stack-2x" ></i><i class="fas fa-camera fa-stack-1x fa-fw text-light" ></i>'
-  post= "</span>"
-  url = "https://photos.kutner.org/"
-  weight = 40
+#   [[main_right]]
+#   name = "    "
+#   pre = '<span class="fa-stack fa-2x mr-1" style="font-size: 0.9em;"><i class="fas fa-circle fa-stack-2x" ></i><i class="fas fa-camera fa-stack-1x fa-fw text-light" ></i>'
+#   post= "</span>"
+#   url = "https://photos.kutner.org/"
+#   weight = 40
 
 
 # Link to a PDF of your resume/CV from the menu.
