@@ -1,5 +1,5 @@
 [build]
-command = "hוgo -v"
+command = "hugo -v"
 publish = "public"
 
 [build.environment]
