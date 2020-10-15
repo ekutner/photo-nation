@@ -20,6 +20,13 @@
   url = "/contributing/"
   weight = 5
 
+[[main_right]]
+  name = ""
+  pre = '<i class="fas fa-rss  fa-fw" ></i>'
+  post= ""
+  url = "https://photo-nation.org/index.xml"
+  weight = 20
+
 # [[main_right]]
 #   name = ""
 #   pre = '<span class="fa-stack fa-2x mr-1" style="font-size: 0.9em;"><i class="fas fa-circle fa-stack-2x" ></i><i class="fab fa-instagram fa-stack-1x fa-fw text-light" ></i>'
