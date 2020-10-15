@@ -3,7 +3,7 @@ weight: 100
 title: "יסודות השימוש במבזק/פלאש"
 #title_align: "left"
 #summary: ""
-date: 2020-10-09
+date: 2020-10-12
 draft: false
 
 authors: 
