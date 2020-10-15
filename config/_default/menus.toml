@@ -24,7 +24,7 @@
   name = ""
   pre = '<i class="fas fa-rss  fa-fw" ></i>'
   post= ""
-  url = "https://photo-nation.org/index.xml"
+  url = "http://feeds.feedburner.com/photo-nation/rss"
   weight = 20
 
 # [[main_right]]
