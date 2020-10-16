@@ -21,10 +21,33 @@
   weight = 5
 
 [[main_right]]
-  name = ""
+  name = " "
   pre = '<i class="fas fa-rss  fa-fw" ></i>'
   post= ""
   url = "http://feeds.feedburner.com/photo-nation/rss"
+  weight = 10
+
+[[main_right]]
+  name = ""
+  pre = """
+  </a>
+  <div class="nav-link">
+  <form style="padding:0px 3px 0px 3px;display:inline" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=photo-nation/rss', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+    <input type="text" style="width:200px" name="email" placeholder="לעדכונים באימייל"/>
+    <input type="hidden" value="photo-nation/rss" name="uri"/>
+    <input type="hidden" name="loc" value="en_US"/>
+    <button type="submit" />
+      <span data-toggle="tooltip" data-html="true" data-animation="true" title="השירות מופעל ע&quot;י FeedBurner מבית גוגל, כתובת האימייל אינה מגיעה לידי פוטוניישן ולא יעשה בה שימוש למעט לצורך שליחת העדכונים. ניתן לצאת מהרשימה בכל שלב.">
+      הרשמה 
+      <i class="far fa-question-circle text-dark" style="font-size: 0.8em; position: relative; top:-5px"></i>
+      </span>
+    </button>
+
+  </form>
+  </div>
+  """
+  post= "<a>"
+  url = "hide"
   weight = 20
 
 # [[main_right]]
