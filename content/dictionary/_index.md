@@ -21,8 +21,11 @@ tags:
   - "Python"
   - "New"
 
+toc: true
+type: toc_doc
+layout: toc_doc/single.html
+
 ---
-{{< toc title="רשימת הנושאים" >}}
 
 ## אורך מוקד - Focal Length
 אורך המוקד של עדשה מוגדר כמרחק בין המרכז האפקטיבי של העדשה למישור בו ימוקד אור שמגיע מאינסוף. 
