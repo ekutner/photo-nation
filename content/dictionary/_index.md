@@ -22,7 +22,8 @@ tags:
   - "New"
 
 toc: true
-type: post
+type: toc_doc
+layout: toc_doc/single.html
 
 ---
 

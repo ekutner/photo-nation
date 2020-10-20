@@ -62,6 +62,16 @@ ul.nav-icons li:last-of-type {
   padding-right: 0;
 }
 
+ul.toc-top {
+	padding-right: 0px;
+}
+
+#TableOfContents {
+	padding-left: right;
+  border-right: 1px solid #eee;
+  border-left: none;
+}
+
 // Hide the floating toolbar on charts
 .modebar-container {
   display: none;
