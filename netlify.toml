@@ -1,0 +1,12 @@
+[build]
+command = "hugo -v"
+publish = "public"
+
+[build.environment]
+HUGO_VERSION = "0.75.1"
+
+[[redirects]]
+  from = "/feed/"
+  to = "/index.xml"
+  status = 200
+  force = true

@@ -116,4 +116,9 @@ figure {
 }
 
 
+// Hide menu item with target "hide"
+a[href*="hide"] {
+  display: none;
+}
+
 @import "twentytwenty-no-compass";

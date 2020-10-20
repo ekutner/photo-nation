@@ -8,7 +8,7 @@ weight = 10  # Order that this section will appear.
 title = "הקדמה קצרה"
 
 # Hero image (optional). Enter filename of an image in the `static/media/` folder.
-#hero_media = "hero-academic.png"
+#hero_media = "icon-400.png"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -43,16 +43,16 @@ title = "הקדמה קצרה"
   icon = "images"
   
 #[cta_alt]
-#  url = "https://sourcethemes.com/academic/"
-#  label = "View Documentation"
+#url = "/contributing/"
+#label = "אני רוצה לעזור"
 
 # Note. An optional note to show underneath the links.
 #[cta_note]
-#  label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
+# label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
 
   
 +++
-החזון של האתר הזה הוא להיות מרכז נגיש וחינמי לידע בצילום מתקדם, לצלמים ישראלים, ובעברית. 
-ההתחלה אומנם צנועה אבל גם היא דרשה לא מעט השקעה ולכן האתר הזה הוא סוג של פיילוט.  
-כדי לכוון את ההשקעה העתידית לכיוונים, שיעניינו קהל מספיק רחב של אנשים,
- אשמח מאוד לשמוע מה אתם חושבים ע"י מענה לשאלון קצר:
+החזון של פוטוניישן הוא להיות מרכז שיתופי וחינמי לידע בצילום מתקדם. 
+הרעיון הוא שמומחים בתחומים שונים, הקשורים לצילום, [יתרמו תוכן](/contributing/) במודל של קוד פתוח.  
+ההתחלה אומנם צנועה אבל אם מספיק אנשים ירתמו למאמץ האתר יוכל להפוך לוויקיפדיה של מידע לצלם הישראלי.  
+מענה על שאלון קצר יעזור לכוון את ההשקעה בעתיד לכיוונים שיענינו אנשים רבים ככל האפשר:
