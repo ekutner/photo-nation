@@ -72,6 +72,11 @@ ul.toc-top {
   border-left: none;
 }
 
+// override wordbreak rules for articles
+.article-style {
+	word-break: normal;
+}
+
 // Hide the floating toolbar on charts
 .modebar-container {
   display: none;
