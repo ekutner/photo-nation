@@ -13,7 +13,8 @@ profile: false
 
 # taxonomies
 categories: 
-   - "טכניקה"
+   - מדריכים
+   - טכניקה
 
 # tags:
 #   - "Photos"
