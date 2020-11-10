@@ -1,6 +1,6 @@
 ---
 weight: 100
-title: "המדריך המלא לפילטרים בצילום"
+title: "המדריך המלא לפילטרים"
 #title_align: "left"
 date: 2020-10-24
 draft: false
