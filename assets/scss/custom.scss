@@ -1,3 +1,10 @@
+// fix bug in 5.0.0 beta 
+.cta-btns a {
+  color: white !important;
+}
+.article-title {
+  font-size: xx-large;
+}
 
 // override button ending in portfolio tag filter toolbar to work correctly in RTL
 .btn-toolbar .btn:last-child {
