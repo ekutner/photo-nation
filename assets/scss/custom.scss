@@ -6,6 +6,13 @@
   font-size: xx-large;
 }
 
+.page-body .home-section {
+  padding: 40px 0 0 0 !important;
+}
+.hero-lead {
+	font-size: 1.35rem;
+}
+
 // override button ending in portfolio tag filter toolbar to work correctly in RTL
 .btn-toolbar .btn:last-child {
   border-radius: 6px 0 0 6px !important;  	
