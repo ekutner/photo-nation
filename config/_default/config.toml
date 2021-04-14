@@ -24,7 +24,7 @@ copyright = "כל הזכויות שמורות ל-photo-nation.org וכותבי �
 theme = "academic/wowchemy"
 
 # Get last modified date for content from Git?
-enableGitInfo = true
+enableGitInfo = false
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "he"
