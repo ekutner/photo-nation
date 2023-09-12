@@ -6,7 +6,11 @@ publish = "public"
 HUGO_VERSION = "0.80.0"
 
 [[redirects]]
-  from = "/feed/"
-  to = "/index.xml"
-  status = 200
+  # from = "/feed/"
+  # to = "/index.xml"
+  # status = 200
+  # force = true
+  from = "/*"
+  to = "https://www.kutner.org/he/guides/"
+  status = 301
   force = true
